@@ -288,7 +288,7 @@ export default function ListDetail({ navigation, route }) {
                 }}>
                   {item.nomor_resi}
                 </Text>
-                <TouchableOpacity onPress={() => navigation.navigate('Akses', {
+                {/* <TouchableOpacity onPress={() => navigation.navigate('Akses', {
                   nomor_resi: item.nomor_resi,
                   kode_kurir: item.kode_kurir
                 })} style={{
@@ -303,7 +303,7 @@ export default function ListDetail({ navigation, route }) {
                     fontFamily: fonts.secondary[400],
                     fontSize: windowWidth / 30,
                   }}>Lacak Resi</Text>
-                </TouchableOpacity>
+                </TouchableOpacity> */}
               </View>
             </View>
 

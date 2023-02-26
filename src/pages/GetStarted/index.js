@@ -66,16 +66,11 @@ export default function GetStarted({ navigation }) {
             source={require('../../assets/logo.png')}
             style={{
               resizeMode: 'contain',
-              height: 200,
+              height: 100,
             }}
           />
         </View>
 
-        <Text style={{
-          fontFamily: fonts.secondary[600],
-          fontSize: windowWidth / 15,
-          color: colors.white
-        }}>TOKO WITRA GUNA</Text>
       </View>
 
       <MyButton
@@ -93,8 +88,7 @@ export default function GetStarted({ navigation }) {
       <MyButton
         title="REGISTER"
         warna={colors.primary}
-        borderSize={1}
-        borderColor={colors.white}
+        borderColor={colors.primary}
         colorText={colors.white}
         iconColor={colors.white}
         Icons="create-outline"
@@ -111,7 +105,7 @@ const styles = StyleSheet.create({
   page: {
     flex: 1,
     padding: 20,
-    backgroundColor: colors.primary,
+    backgroundColor: colors.white,
   },
   title: {
     marginTop: 50,
